@@ -101,7 +101,5 @@ Account created! Your number: ACC1001
 - Swing/JavaFX GUI or a Spring Boot web version
 
 ## Author
-
 **Prit Chouhan**
-GitHub: [PritChouhan-18](https://github.com/PritChouhan-18) 
-LinkedIn: [your-profile](https://www.linkedin.com/in/Prit_Chouhan)
+GitHub: [PritChouhan-18](https://github.com/PritChouhan-18) | LinkedIn: [Prit Chouhan](https://www.linkedin.com/in/prit-chouhan-a38355386)
