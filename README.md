@@ -24,6 +24,7 @@ A console-based banking application built in **Java** using **OOP principles**, 
 | Database | MySQL 8 |
 | DB access | JDBC (PreparedStatement) |
 | IDE | IntelliJ IDEA |
+| Testing | JUnit 5 |
 
 ## OOP Concepts Used
 
@@ -103,3 +104,5 @@ Account created! Your number: ACC1001
 ## Author
 **Prit Chouhan**
 GitHub: [PritChouhan-18](https://github.com/PritChouhan-18) | LinkedIn: [Prit Chouhan](https://www.linkedin.com/in/prit-chouhan-a38355386)
+
+| 
