@@ -1,0 +1,20 @@
+CREATE DATABASE IF NOT EXISTS bank_db;
+USE bank_db;
+
+CREATE TABLE IF NOT EXISTS accounts (
+  acc_no VARCHAR(10) PRIMARY KEY,
+  holder_name VARCHAR(50) NOT NULL,
+  pin VARCHAR(10) NOT NULL,
+  type VARCHAR(10) NOT NULL,
+  balance DOUBLE NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS transactions (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  acc_no VARCHAR(10),
+  type VARCHAR(15),
+  amount DOUBLE,
+  balance_after DOUBLE,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (acc_no) REFERENCES accounts(acc_no)
+);
